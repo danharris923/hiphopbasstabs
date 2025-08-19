@@ -1,0 +1,66 @@
+{
+  "description": "Original song that was sampled.",
+  "examples": [
+    {
+      "artist": "Mtume",
+      "spotify_id": "4xdBrk0nCOAhFDEQ21T0W",
+      "title": "Juicy Fruit",
+      "year": 1983,
+      "youtube_id": "vG0ZvhD6YKI"
+    }
+  ],
+  "properties": {
+    "title": {
+      "description": "Original track title",
+      "maxLength": 200,
+      "minLength": 1,
+      "title": "Title",
+      "type": "string"
+    },
+    "artist": {
+      "description": "Original artist name",
+      "maxLength": 100,
+      "minLength": 1,
+      "title": "Artist",
+      "type": "string"
+    },
+    "year": {
+      "description": "Original release year",
+      "maximum": 2030,
+      "minimum": 1900,
+      "title": "Year",
+      "type": "integer"
+    },
+    "youtube_id": {
+      "description": "YouTube video ID for original track",
+      "maxLength": 11,
+      "minLength": 11,
+      "title": "Youtube Id",
+      "type": "string"
+    },
+    "spotify_id": {
+      "anyOf": [
+        {
+          "maxLength": 22,
+          "minLength": 22,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Spotify track ID for original",
+      "title": "Spotify Id"
+    }
+  },
+  "required": [
+    "title",
+    "artist",
+    "year",
+    "youtube_id"
+  ],
+  "title": "Original",
+  "type": "object",
+  "$id": "https://basstabs.com/schemas/original"
+}
