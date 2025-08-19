@@ -1,8 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
   async headers() {
     return [
       {
@@ -41,14 +38,7 @@ const nextConfig = {
       }
     ]
   },
-  async rewrites() {
-    return [
-      {
-        source: '/api/:path*',
-        destination: 'http://localhost:8000/api/:path*'
-      }
-    ]
-  }
+  // Rewrites removed - using Next.js API routes instead
 }
 
 module.exports = nextConfig
