@@ -1,0 +1,158 @@
+[
+  {
+    "slug": "2pac-california-love",
+    "track": {
+      "title": "California Love",
+      "artist": "2Pac",
+      "year": 1995,
+      "youtube_id": "5wBTdfAkqGU",
+      "spotify_id": "mock_spotify_id_2pac_california_love"
+    },
+    "original": {
+      "title": "Dance Floor",
+      "artist": "Zapp",
+      "year": 1982,
+      "youtube_id": "kYPo3HCkYd8",
+      "spotify_id": "mock_spotify_id_zapp_dance_floor"
+    },
+    "sample_map": {
+      "is_bass_sample": true,
+      "sample_type": "direct",
+      "track_start_sec": 12.0,
+      "original_start_sec": 25.0,
+      "notes": "Roger Troutman's talk box and Zapp's signature bass funk"
+    },
+    "tab": {
+      "tuning": "EADG",
+      "difficulty": 3,
+      "tab_text": "# Zapp's signature talk-box funk bass:\nG|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nD|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nA|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20147\u20145\u20143\u2014\u2014\u2014\u2014\u2014|\nE|\u20145\u20145\u20145\u20145\u20145\u20145\u20145\u20145\u20145\u20145\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20145\u20143\u2014|",
+      "bars": [
+        {
+          "bar": 1,
+          "start_sec": 25.0
+        },
+        {
+          "bar": 2,
+          "start_sec": 29.0
+        }
+      ]
+    }
+  },
+  {
+    "slug": "2pac-i-get-around",
+    "track": {
+      "title": "I Get Around",
+      "artist": "2Pac",
+      "year": 1993,
+      "youtube_id": "YqJAnQTwmJs",
+      "spotify_id": "mock_spotify_id_2pac_i_get_around"
+    },
+    "original": {
+      "title": "Computer Love",
+      "artist": "Zapp & Roger",
+      "year": 1985,
+      "youtube_id": "iqAj3UfEqpA",
+      "spotify_id": "mock_spotify_id_zapp_&_roger_computer_love"
+    },
+    "sample_map": {
+      "is_bass_sample": true,
+      "sample_type": "direct",
+      "track_start_sec": 5.0,
+      "original_start_sec": 30.0,
+      "notes": "Zapp's robotic funk bass drives the digital soul movement"
+    },
+    "tab": {
+      "tuning": "EADG",
+      "difficulty": 4,
+      "tab_text": "# Digital funk bass with synth bass elements:\nG|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nD|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nA|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20145\u20147\u20145\u20143|\nE|\u20143\u20143\u20140\u20143\u20143\u20140\u20143\u20143\u20140\u20143\u20143\u20140\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|",
+      "bars": [
+        {
+          "bar": 1,
+          "start_sec": 30.0
+        },
+        {
+          "bar": 2,
+          "start_sec": 32.5
+        }
+      ]
+    }
+  },
+  {
+    "slug": "wu-tang-clan-cream",
+    "track": {
+      "title": "C.R.E.A.M.",
+      "artist": "Wu-Tang Clan",
+      "year": 1993,
+      "youtube_id": "PBwAxmrE194",
+      "spotify_id": "mock_spotify_id_wu-tang_clan_c.r.e.a.m."
+    },
+    "original": {
+      "title": "As Long As I've Got You",
+      "artist": "The Charmels",
+      "year": 1967,
+      "youtube_id": "74X5GEF8qzM",
+      "spotify_id": "mock_spotify_id_the_charmels_as_long_as_i've_got_you"
+    },
+    "sample_map": {
+      "is_bass_sample": true,
+      "sample_type": "direct",
+      "track_start_sec": 8.0,
+      "original_start_sec": 15.0,
+      "notes": "Classic soul bass line from The Charmels' deep cut"
+    },
+    "tab": {
+      "tuning": "EADG",
+      "difficulty": 2,
+      "tab_text": "# Classic 60s soul bass groove:\nG|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nD|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nA|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nE|\u20143\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20143\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20143\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20143\u2014\u2014\u2014\u2014|",
+      "bars": [
+        {
+          "bar": 1,
+          "start_sec": 15.0
+        },
+        {
+          "bar": 2,
+          "start_sec": 19.0
+        }
+      ]
+    }
+  },
+  {
+    "slug": "wu-tang-clan-protect-ya-neck",
+    "track": {
+      "title": "Protect Ya Neck",
+      "artist": "Wu-Tang Clan",
+      "year": 1992,
+      "youtube_id": "R0IUR4gkPIE",
+      "spotify_id": "mock_spotify_id_wu-tang_clan_protect_ya_neck"
+    },
+    "original": {
+      "title": "Holy Thursday",
+      "artist": "David Axelrod",
+      "year": 1968,
+      "youtube_id": "bGAB11ZiPew",
+      "spotify_id": "mock_spotify_id_david_axelrod_holy_thursday"
+    },
+    "sample_map": {
+      "is_bass_sample": true,
+      "sample_type": "interpolation",
+      "track_start_sec": 0.0,
+      "original_start_sec": 45.0,
+      "notes": "Psychedelic orchestral bass transformed into raw hip-hop"
+    },
+    "tab": {
+      "tuning": "EADG",
+      "difficulty": 3,
+      "tab_text": "# Orchestral bass with psychedelic edge:\nG|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nD|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nA|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20143\u20145\u20143\u20141\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nE|\u20141\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20141\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20141\u20143\u20141\u20140|",
+      "bars": [
+        {
+          "bar": 1,
+          "start_sec": 45.0
+        },
+        {
+          "bar": 2,
+          "start_sec": 51.0
+        }
+      ]
+    }
+  }
+]

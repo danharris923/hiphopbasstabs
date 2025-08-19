@@ -1,0 +1,41 @@
+[
+  {
+    "slug": "nelly-hot-in-herre",
+    "track": {
+      "title": "Hot in Herre",
+      "artist": "Nelly",
+      "year": 2002,
+      "youtube_id": "GeZZr_p6vB8",
+      "spotify_id": "mock_spotify_id_nelly_hot_in_herre"
+    },
+    "original": {
+      "title": "Bustin' Loose",
+      "artist": "Chuck Brown",
+      "year": 1978,
+      "youtube_id": "sj_mdjMXHqE",
+      "spotify_id": "mock_spotify_id_chuck_brown_bustin'_loose"
+    },
+    "sample_map": {
+      "is_bass_sample": true,
+      "sample_type": "direct",
+      "track_start_sec": 15.0,
+      "original_start_sec": 20.0,
+      "notes": "Go-go funk bass from Chuck Brown's DC classic"
+    },
+    "tab": {
+      "tuning": "EADG",
+      "difficulty": 3,
+      "tab_text": "# Go-go funk bass with pocket groove:\nG|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nD|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nA|\u20147\u20147\u20145\u2014\u2014\u2014\u2014\u2014\u20147\u20147\u20145\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nE|\u2014\u2014\u2014\u2014\u2014\u2014\u20147\u20145\u2014\u2014\u2014\u2014\u2014\u2014\u20147\u20145\u20143\u20140\u20143\u20145\u2014\u2014\u2014\u2014|",
+      "bars": [
+        {
+          "bar": 1,
+          "start_sec": 20.0
+        },
+        {
+          "bar": 2,
+          "start_sec": 24.0
+        }
+      ]
+    }
+  }
+]

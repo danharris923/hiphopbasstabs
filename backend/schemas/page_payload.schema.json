@@ -1,0 +1,353 @@
+{
+  "$defs": {
+    "BarMarker": {
+      "description": "Timestamp marker for individual bars in bass tabs.",
+      "examples": [
+        {
+          "bar": 1,
+          "start_sec": 0.0
+        }
+      ],
+      "properties": {
+        "bar": {
+          "description": "Bar number (1-indexed)",
+          "minimum": 1,
+          "title": "Bar",
+          "type": "integer"
+        },
+        "start_sec": {
+          "description": "Start time in seconds for this bar",
+          "minimum": 0,
+          "title": "Start Sec",
+          "type": "number"
+        }
+      },
+      "required": [
+        "bar",
+        "start_sec"
+      ],
+      "title": "BarMarker",
+      "type": "object"
+    },
+    "Original": {
+      "description": "Original song that was sampled.",
+      "examples": [
+        {
+          "artist": "Mtume",
+          "spotify_id": "4xdBrk0nCOAhFDEQ21T0W",
+          "title": "Juicy Fruit",
+          "year": 1983,
+          "youtube_id": "vG0ZvhD6YKI"
+        }
+      ],
+      "properties": {
+        "title": {
+          "description": "Original track title",
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "artist": {
+          "description": "Original artist name",
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Artist",
+          "type": "string"
+        },
+        "year": {
+          "description": "Original release year",
+          "maximum": 2030,
+          "minimum": 1900,
+          "title": "Year",
+          "type": "integer"
+        },
+        "youtube_id": {
+          "description": "YouTube video ID for original track",
+          "maxLength": 11,
+          "minLength": 11,
+          "title": "Youtube Id",
+          "type": "string"
+        },
+        "spotify_id": {
+          "anyOf": [
+            {
+              "maxLength": 22,
+              "minLength": 22,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Spotify track ID for original",
+          "title": "Spotify Id"
+        }
+      },
+      "required": [
+        "title",
+        "artist",
+        "year",
+        "youtube_id"
+      ],
+      "title": "Original",
+      "type": "object"
+    },
+    "SampleMap": {
+      "description": "Mapping between sampled track and original with timing information.",
+      "examples": [
+        {
+          "is_bass_sample": true,
+          "notes": "Direct bass line loop from original",
+          "original_start_sec": 0.0,
+          "sample_type": "direct",
+          "track_start_sec": 12.0
+        }
+      ],
+      "properties": {
+        "is_bass_sample": {
+          "default": true,
+          "description": "Whether this sample specifically involves bass instruments",
+          "title": "Is Bass Sample",
+          "type": "boolean"
+        },
+        "sample_type": {
+          "default": "direct",
+          "description": "Type of sampling: direct loop, interpolation (modified), or replay",
+          "enum": [
+            "direct",
+            "interpolation",
+            "replay"
+          ],
+          "title": "Sample Type",
+          "type": "string"
+        },
+        "track_start_sec": {
+          "description": "Start time in seconds where sample begins in the track",
+          "minimum": 0,
+          "title": "Track Start Sec",
+          "type": "number"
+        },
+        "original_start_sec": {
+          "description": "Start time in seconds of the sampled section in original",
+          "minimum": 0,
+          "title": "Original Start Sec",
+          "type": "number"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "maxLength": 500,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Additional notes about the sample",
+          "title": "Notes"
+        }
+      },
+      "required": [
+        "track_start_sec",
+        "original_start_sec"
+      ],
+      "title": "SampleMap",
+      "type": "object"
+    },
+    "Tab": {
+      "description": "ASCII bass tab with timing information and metadata.",
+      "examples": [
+        {
+          "bars": [
+            {
+              "bar": 1,
+              "start_sec": 0.0
+            },
+            {
+              "bar": 2,
+              "start_sec": 4.1
+            }
+          ],
+          "difficulty": 2,
+          "tab_text": "G|----------------|----------------|\nD|----------------|----------------|\nA|--5-5--3-3--1-1-|--0----1--3-----|\nE|----------------|----------------|",
+          "tuning": "EADG"
+        }
+      ],
+      "properties": {
+        "tuning": {
+          "default": "EADG",
+          "description": "Bass tuning (standard 4-string EADG, 5-string BEADG, or alternate tunings)",
+          "enum": [
+            "EADG",
+            "BEADG",
+            "DADG",
+            "CGCF"
+          ],
+          "title": "Tuning",
+          "type": "string"
+        },
+        "difficulty": {
+          "description": "Difficulty level from 1 (beginner) to 5 (expert)",
+          "maximum": 5,
+          "minimum": 1,
+          "title": "Difficulty",
+          "type": "integer"
+        },
+        "tab_text": {
+          "description": "ASCII tab notation with line breaks",
+          "minLength": 10,
+          "title": "Tab Text",
+          "type": "string"
+        },
+        "bars": {
+          "description": "List of bar timing markers",
+          "items": {
+            "$ref": "#/$defs/BarMarker"
+          },
+          "minItems": 1,
+          "title": "Bars",
+          "type": "array"
+        }
+      },
+      "required": [
+        "difficulty",
+        "tab_text",
+        "bars"
+      ],
+      "title": "Tab",
+      "type": "object"
+    },
+    "Track": {
+      "description": "Hip-hop track that samples another song.",
+      "examples": [
+        {
+          "artist": "The Notorious B.I.G.",
+          "spotify_id": "5ByAIlEEnxYdvpnezg7HTX",
+          "title": "Juicy",
+          "year": 1994,
+          "youtube_id": "_JZom_gVfuw"
+        }
+      ],
+      "properties": {
+        "title": {
+          "description": "Track title",
+          "maxLength": 200,
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "artist": {
+          "description": "Artist name",
+          "maxLength": 100,
+          "minLength": 1,
+          "title": "Artist",
+          "type": "string"
+        },
+        "year": {
+          "description": "Release year",
+          "maximum": 2030,
+          "minimum": 1900,
+          "title": "Year",
+          "type": "integer"
+        },
+        "youtube_id": {
+          "description": "YouTube video ID (11 characters)",
+          "maxLength": 11,
+          "minLength": 11,
+          "title": "Youtube Id",
+          "type": "string"
+        },
+        "spotify_id": {
+          "anyOf": [
+            {
+              "maxLength": 22,
+              "minLength": 22,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Spotify track ID (22 characters)",
+          "title": "Spotify Id"
+        }
+      },
+      "required": [
+        "title",
+        "artist",
+        "year",
+        "youtube_id"
+      ],
+      "title": "Track",
+      "type": "object"
+    }
+  },
+  "description": "Complete payload for a track/sample pair page.",
+  "examples": [
+    {
+      "original": {
+        "artist": "Mtume",
+        "spotify_id": "4xdBrk0nCOAhFDEQ21T0W",
+        "title": "Juicy Fruit",
+        "year": 1983,
+        "youtube_id": "vG0ZvhD6YKI"
+      },
+      "sample_map": {
+        "is_bass_sample": true,
+        "notes": "Direct bass line loop",
+        "original_start_sec": 0.0,
+        "sample_type": "direct",
+        "track_start_sec": 12.0
+      },
+      "tab": {
+        "bars": [
+          {
+            "bar": 1,
+            "start_sec": 0.0
+          }
+        ],
+        "difficulty": 2,
+        "tab_text": "G|--------|\nD|--------|\nA|5-3-1---|\nE|--------|",
+        "tuning": "EADG"
+      },
+      "track": {
+        "artist": "The Notorious B.I.G.",
+        "spotify_id": "5ByAIlEEnxYdvpnezg7HTX",
+        "title": "Juicy",
+        "year": 1994,
+        "youtube_id": "_JZom_gVfuw"
+      }
+    }
+  ],
+  "properties": {
+    "track": {
+      "$ref": "#/$defs/Track",
+      "description": "The hip-hop track that contains the sample"
+    },
+    "original": {
+      "$ref": "#/$defs/Original",
+      "description": "The original track that was sampled"
+    },
+    "sample_map": {
+      "$ref": "#/$defs/SampleMap",
+      "description": "Information about how the track samples the original"
+    },
+    "tab": {
+      "$ref": "#/$defs/Tab",
+      "description": "Bass tab notation with timing markers"
+    }
+  },
+  "required": [
+    "track",
+    "original",
+    "sample_map",
+    "tab"
+  ],
+  "title": "PagePayload",
+  "type": "object",
+  "$id": "https://basstabs.com/schemas/page_payload"
+}

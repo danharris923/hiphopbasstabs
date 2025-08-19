@@ -1,0 +1,63 @@
+# Classic Hip-Hop Tracks with Bass Samples
+# Format: Artist, Track, Year
+
+# 2Pac Classics
+2Pac, California Love, 1995
+2Pac, I Get Around, 1993
+2Pac, Dear Mama, 1995
+2Pac, Keep Ya Head Up, 1993
+
+# Wu-Tang Clan Essentials  
+Wu-Tang Clan, C.R.E.A.M., 1993
+Wu-Tang Clan, Protect Ya Neck, 1992
+Wu-Tang Clan, Method Man, 1993
+Wu-Tang Clan, Bring Da Ruckus, 1993
+
+# Nelly
+Nelly, Hot in Herre, 2002
+Nelly, Country Grammar, 2000
+Nelly, Ride wit Me, 2001
+
+# Ludacris
+Ludacris, What's Your Fantasy, 2000
+Ludacris, Rollout, 2001
+Ludacris, Move Bitch, 2001
+
+# KRS-One
+KRS-One, Sound of da Police, 1993
+KRS-One, Step Into a World, 1997
+Boogie Down Productions, The Bridge Is Over, 1987
+
+# West Coast Classics
+Snoop Dogg, Gin and Juice, 1994
+Warren G, Regulate, 1994
+Ice Cube, It Was a Good Day, 1992
+Ice Cube, Check Yo Self, 1993
+Eazy-E, Boyz-n-the-Hood, 1987
+N.W.A, Straight Outta Compton, 1988
+N.W.A, Express Yourself, 1989
+
+# Beastie Boys
+Beastie Boys, Sabotage, 1994
+Beastie Boys, Fight for Your Right, 1986
+Beastie Boys, Intergalactic, 1998
+
+# Southern Hip-Hop
+Geto Boys, Mind Playing Tricks on Me, 1991
+Scarface, I Seen a Man Die, 1994
+Spice 1, 1-8-7 on a Undercover Cop, 1992
+
+# East Coast Legends
+Nas, N.Y. State of Mind, 1994
+Nas, The World Is Yours, 1994
+Mos Def, Mathematics, 1999
+Mos Def, Ms. Fat Booty, 1999
+The Roots, What They Do, 1996
+The Roots, The Seed 2.0, 2002
+Cypress Hill, How I Could Just Kill a Man, 1991
+House of Pain, Jump Around, 1992
+
+# West Coast Underground
+Souls of Mischief, 93 'til Infinity, 1993
+Hieroglyphics, You Never Knew, 1998
+Del the Funky Homosapien, Mistadobalina, 1991

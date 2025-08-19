@@ -1,0 +1,197 @@
+[
+  {
+    "slug": "nas-ny-state-of-mind",
+    "track": {
+      "title": "N.Y. State of Mind",
+      "artist": "Nas",
+      "year": 1994,
+      "youtube_id": "UKjj4hk0pV4",
+      "spotify_id": "mock_spotify_id_nas_n.y._state_of_mind"
+    },
+    "original": {
+      "title": "Mind Rain",
+      "artist": "Joe Chambers",
+      "year": 1975,
+      "youtube_id": "xLm4TcJ4rgg",
+      "spotify_id": "mock_spotify_id_joe_chambers_mind_rain"
+    },
+    "sample_map": {
+      "is_bass_sample": true,
+      "sample_type": "direct",
+      "track_start_sec": 0.0,
+      "original_start_sec": 45.0,
+      "notes": "Jazz-funk bass line from Joe Chambers' Mind Rain"
+    },
+    "tab": {
+      "tuning": "EADG",
+      "difficulty": 4,
+      "tab_text": "# Jazz-funk bass with modal harmony:\nG|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nD|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20142\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20142\u2014|\nA|\u20142\u20144\u20142\u20140\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20142\u20144\u20142\u20140\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nE|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20142\u20144\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20142\u20144\u20140\u2014|",
+      "bars": [
+        {
+          "bar": 1,
+          "start_sec": 45.0
+        },
+        {
+          "bar": 2,
+          "start_sec": 48.5
+        }
+      ]
+    }
+  },
+  {
+    "slug": "ice-cube-it-was-a-good-day",
+    "track": {
+      "title": "It Was a Good Day",
+      "artist": "Ice Cube",
+      "year": 1992,
+      "youtube_id": "h4UqMyldS7Q",
+      "spotify_id": "mock_spotify_id_ice_cube_it_was_a_good_day"
+    },
+    "original": {
+      "title": "Footsteps in the Dark",
+      "artist": "The Isley Brothers",
+      "year": 1977,
+      "youtube_id": "etwIu8-J5yo",
+      "spotify_id": "mock_spotify_id_the_isley_brothers_footsteps_in_the_dark"
+    },
+    "sample_map": {
+      "is_bass_sample": true,
+      "sample_type": "direct",
+      "track_start_sec": 12.0,
+      "original_start_sec": 0.0,
+      "notes": "Classic R&B bass line from the Isley Brothers"
+    },
+    "tab": {
+      "tuning": "EADG",
+      "difficulty": 2,
+      "tab_text": "# Classic R&B bass line:\nG|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nD|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nA|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20143\u20145\u20143\u20141\u2014\u2014|\nE|\u20141\u20141\u20141\u20141\u20143\u20141\u20140\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20143|",
+      "bars": [
+        {
+          "bar": 1,
+          "start_sec": 0.0
+        },
+        {
+          "bar": 2,
+          "start_sec": 4.5
+        }
+      ]
+    }
+  },
+  {
+    "slug": "warren-g-regulate",
+    "track": {
+      "title": "Regulate",
+      "artist": "Warren G",
+      "year": 1994,
+      "youtube_id": "1plPyJdXKIY",
+      "spotify_id": "mock_spotify_id_warren_g_regulate"
+    },
+    "original": {
+      "title": "I Keep Forgettin'",
+      "artist": "Michael McDonald",
+      "year": 1982,
+      "youtube_id": "qiiyq2xrSI0",
+      "spotify_id": "mock_spotify_id_michael_mcdonald_i_keep_forgettin'"
+    },
+    "sample_map": {
+      "is_bass_sample": true,
+      "sample_type": "interpolation",
+      "track_start_sec": 8.0,
+      "original_start_sec": 15.0,
+      "notes": "Yacht rock bass transformed into G-funk"
+    },
+    "tab": {
+      "tuning": "EADG",
+      "difficulty": 3,
+      "tab_text": "# Yacht rock smooth bass:\nG|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nD|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nA|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20142\u20144\u20142\u20140\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nE|\u20142\u20142\u20144\u20142\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20142\u20140\u20142\u20144\u20142\u20140\u2014\u2014\u2014\u2014|",
+      "bars": [
+        {
+          "bar": 1,
+          "start_sec": 15.0
+        },
+        {
+          "bar": 2,
+          "start_sec": 18.0
+        }
+      ]
+    }
+  },
+  {
+    "slug": "house-of-pain-jump-around",
+    "track": {
+      "title": "Jump Around",
+      "artist": "House of Pain",
+      "year": 1992,
+      "youtube_id": "XhzpxjuwZy0",
+      "spotify_id": "mock_spotify_id_house_of_pain_jump_around"
+    },
+    "original": {
+      "title": "The Harlem Shuffle",
+      "artist": "Bob & Earl",
+      "year": 1963,
+      "youtube_id": "wBiOVOBZeaE",
+      "spotify_id": "mock_spotify_id_bob_&_earl_the_harlem_shuffle"
+    },
+    "sample_map": {
+      "is_bass_sample": true,
+      "sample_type": "direct",
+      "track_start_sec": 5.0,
+      "original_start_sec": 10.0,
+      "notes": "Classic R&B bass shuffle pattern"
+    },
+    "tab": {
+      "tuning": "EADG",
+      "difficulty": 2,
+      "tab_text": "# Classic shuffle bass pattern:\nG|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nD|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nA|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nE|\u20141\u20141\u20143\u20141\u20143\u20141\u2014\u2014\u2014\u2014\u20141\u20141\u20143\u20141\u20143\u20141\u2014\u2014\u2014\u2014|",
+      "bars": [
+        {
+          "bar": 1,
+          "start_sec": 10.0
+        },
+        {
+          "bar": 2,
+          "start_sec": 14.0
+        }
+      ]
+    }
+  },
+  {
+    "slug": "geto-boys-mind-playing-tricks-on-me",
+    "track": {
+      "title": "Mind Playing Tricks on Me",
+      "artist": "Geto Boys",
+      "year": 1991,
+      "youtube_id": "KutXyPEEbQs",
+      "spotify_id": "mock_spotify_id_geto_boys_mind_playing_tricks_on_me"
+    },
+    "original": {
+      "title": "Hung Up on My Baby",
+      "artist": "Isaac Hayes",
+      "year": 1974,
+      "youtube_id": "nEjLFpU2pJ4",
+      "spotify_id": "mock_spotify_id_isaac_hayes_hung_up_on_my_baby"
+    },
+    "sample_map": {
+      "is_bass_sample": true,
+      "sample_type": "direct",
+      "track_start_sec": 20.0,
+      "original_start_sec": 30.0,
+      "notes": "Isaac Hayes' orchestrated soul bass"
+    },
+    "tab": {
+      "tuning": "EADG",
+      "difficulty": 3,
+      "tab_text": "# Orchestrated soul bass:\nG|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nD|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nA|\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20143\u20142\u20140\u2014\u2014\u2014\u2014\u2014\u2014\u2014|\nE|\u20140\u20140\u20143\u20140\u20142\u20143\u20140\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u20143\u20142\u20140|",
+      "bars": [
+        {
+          "bar": 1,
+          "start_sec": 30.0
+        },
+        {
+          "bar": 2,
+          "start_sec": 35.0
+        }
+      ]
+    }
+  }
+]
