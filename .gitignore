@@ -59,3 +59,9 @@ Thumbs.db
 # Logs
 logs/
 *.log
+
+# Problematic files
+nul
+
+# Keep only root-level Next.js project, ignore duplicate frontend directory  
+frontend/
